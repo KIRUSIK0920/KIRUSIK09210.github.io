@@ -1,0 +1,31 @@
+      
+<!DOCTYPE html>
+<html>
+ <head>  
+  <style>    
+    div {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background-color: lime;
+      border-radius: 50%;
+      animation-name: changeBackgroundColor;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;  
+    }
+
+    @keyframes changeBackgroundColor {
+      0%   {background-color: lime; left:0px; top:0px;}
+      25%  {background-color: purple; left:0px; top:200px;}
+      50%  {background-color: green; left:200px; top:200px;}
+      75%  {background-color: yellow; left:200px; top:0px;}
+      100% {background-color: lime; left:0px; top:0px;}
+    }
+  </style>
+ </head>
+ <body>
+
+  <div>Анимация</div>
+
+ </body>
+</html>
